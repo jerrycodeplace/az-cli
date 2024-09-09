@@ -1,3 +1,6 @@
+### reference
+### https://learn.microsoft.com/en-us/cli/azure/redisenterprise?view=azure-cli-latest
+
 az redisenterprise database show 
 - cluster-name <your-cluster-name> 
 - resource-group <your-resource-group-name>
