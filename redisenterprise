@@ -1,0 +1,16 @@
+az redisenterprise database show 
+- cluster-name <your-cluster-name> 
+- resource-group <your-resource-group-name>
+
+az redisenterprise database delete 
+- cluster-name <your-cluster-name> 
+- resource-group <your-resource-group-name>
+
+az redisenterprise database create 
+- cluster-name <your-cluster-name> 
+- resource-group <your-resource-group-name> 
+- database-name <your-database-name> 
+- module name=RediSearch 
+- module name=RedisJSON 
+- module name=RedisBloom 
+- module name=RedisTimeSeries
